@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple vector splash icon (no external binaries). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M54,16c-21,0 -38,17 -38,38s17,38 38,38s38,-17 38,-38S75,16 54,16zM54,24c16.6,0 30,13.4 30,30S70.6,84 54,84S24,70.6 24,54S37.4,24 54,24z" />
+
+    <path
+        android:fillColor="#7C4DFF"
+        android:pathData="M54,34c-11,0 -20,9 -20,20s9,20 20,20s20,-9 20,-20S65,34 54,34zM54,42c6.6,0 12,5.4 12,12s-5.4,12 -12,12s-12,-5.4 -12,-12S47.4,42 54,42z" />
+
+</vector>
+
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base app theme. Compose renders the actual UI theme, but Android still needs a theme here. -->
+    <style name="Theme.NfcForge" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Keep the status/navigation bars sleek; Compose will further customize if needed. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Splash screen theme (Android 12+ shows the splash automatically via core-splashscreen). -->
+    <style name="Theme.NfcForge.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.NfcForge</item>
+    </style>
+
+</resources>
+
+
+
